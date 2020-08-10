@@ -178,11 +178,10 @@ img {
   padding-top: 200px;
   background-color: var(--footer-bg-color);
   background-image: linear-gradient(
-      rgba(47, 48, 58, 0.8),
-      rgba(47, 48, 58, 0.8)
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
     ),
     url(../images/hero.jpg);
-  background-repeat: no-repeat;
   text-align: center;
 }
 
@@ -395,12 +394,13 @@ img {
   margin-top: 0;
 }
 
-.auth {
+.join-us {
   display: block;
   color: var(--white-color);
   margin-top: 0;
   margin-bottom: 20px;
   margin-left: 0;
+  text-transform: uppercase;
 }
 
 .footer-contacts {
@@ -409,9 +409,10 @@ img {
   margin-right: 0px;
 }
 
-.footer-auth {
+.footer-flexbox {
   display: flex;
   justify-content: space-between;
+  vertical-align: middle;
 }
 
 .footer-links {
@@ -420,19 +421,14 @@ img {
   margin-left: 0;
 }
 
-.content {
-  margin-top: 0;
-}
-
 .footer-info,
 .footer-join {
   box-sizing: border-box;
-  width: 270px;
-  margin-left: 0;
+  width: 231px;
 }
 
 .footer-info {
-  margin-right: 30px;
+  margin-right: 69px;
 }
 
 .submit-button {
