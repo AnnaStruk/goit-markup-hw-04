@@ -371,12 +371,13 @@ img {
   justify-content: center;
 }
 
-.customer-item:not(:last-child) {
+.customers-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.customer-item {
+.customers-link {
   display: flex;
+  cursor: pointer;
   width: 170px;
   height: 90px;
 
@@ -384,14 +385,12 @@ img {
   align-items: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-}
-
-.customer-icon {
   fill: #afb1b8;
 }
 
-.customer.link:hover .customer-icon {
+.customers-link:hover {
   fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /* Footer*/
