@@ -273,7 +273,7 @@ img {
 
 .icon-astronaut::before {
   background-image: url(../images/astronaut-icon.svg);
-  background-size: 55px;
+  background-size: 70px;
 }
 
 .features-description {
