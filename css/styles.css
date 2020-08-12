@@ -365,24 +365,33 @@ img {
   text-align: center;
 }
 
-/* Clients*/
-.clients {
+/* Customers*/
+.customers {
   display: flex;
   justify-content: center;
 }
 
-.client-item:not(:last-child) {
-  display: flex;
+.customer-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.company-icon {
-  display: inline-block;
+.customer-item {
+  display: flex;
   width: 170px;
   height: 90px;
+
+  justify-content: center;
+  align-items: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  vertical-align: middle;
+}
+
+.customer-icon {
+  fill: #afb1b8;
+}
+
+.customer.link:hover .customer-icon {
+  fill: var(--accent-color);
 }
 
 /* Footer*/
