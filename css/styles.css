@@ -503,37 +503,18 @@ img {
 }
 
 .footer-social {
-  display: inline-block;
-  content: "";
+  display: flex;
   height: 44px;
   width: 44px;
   background-color: rgba(255, 255, 255, 0.1);
-  background-repeat: no-repeat;
-  background-position: center;
+
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
 }
 
 .footer-social:hover {
   background-color: var(--accent-color);
-}
-
-.icon-footer-insta {
-  background-image: url(../images/footer-insta.svg);
-  background-size: 20px;
-}
-
-.icon-footer-twitter {
-  background-image: url(../images/footer-twitter.svg);
-  background-size: 20px 16px;
-}
-
-.icon-footer-fb {
-  background-image: url(../images/footer-fb.svg);
-  background-size: 10px 20px;
-}
-
-.icon-footer-linkedin {
-  background-image: url(../images/footer-linkedin.svg);
 }
 
 .footer-sign-up {
