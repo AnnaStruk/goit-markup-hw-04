@@ -375,16 +375,14 @@ img {
 }
 
 .social-btn {
-  display: inline-block;
-  border: none;
-  padding: 0;
+  display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
 
-  outline: 1px solid red;
+  justify-content: center;
+  align-items: center;
   color: #afb1b8;
-  background-color: teal;
 }
 
 .social-icon {
