@@ -365,13 +365,35 @@ img {
 
 .social-links {
   display: flex;
-  text-align: center;
   justify-content: center;
   margin-bottom: 24px;
+  padding: 0;
 }
 
 .social-item:not(:last-child) {
   margin-right: 10px;
+}
+
+.social-btn {
+  display: inline-block;
+  border: none;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  outline: 1px solid red;
+  color: #afb1b8;
+  background-color: teal;
+}
+
+.social-icon {
+  fill: currentColor;
+}
+
+.social-btn:hover {
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 
 .profession {
@@ -578,6 +600,11 @@ img {
 
 .portfolio-card {
   width: calc((100% - 30px * 2) / 3);
+}
+
+.portfolio-card:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-box {
