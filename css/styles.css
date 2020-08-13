@@ -109,8 +109,9 @@ img {
 }
 
 /* Contacts */
-.contacts a {
+.contacts .link {
   color: var(--primary-text-color);
+  fill: var(--primary-text-color);
 }
 
 .contacts {
@@ -119,12 +120,13 @@ img {
   margin-bottom: 0px;
 }
 
-.header-contacts .link:not(:last-child) {
-  margin-right: 30px;
+.header-contacts .link {
+  margin-left: 30px;
 }
 
 .contacts .link:hover,
-.contacts .link:focus {
+.contacts .link:focus,
+.button-icon:hover {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -145,10 +147,8 @@ img {
 .btn-mail,
 .btn-phone {
   display: flex;
-  outline: 1px solid red;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
 }
 
 .button-icon {
