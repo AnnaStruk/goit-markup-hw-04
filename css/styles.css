@@ -125,8 +125,7 @@ img {
 }
 
 .contacts .link:hover,
-.contacts .link:focus,
-.button-icon:hover {
+.contacts .link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
