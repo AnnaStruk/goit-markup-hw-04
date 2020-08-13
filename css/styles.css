@@ -119,17 +119,14 @@ img {
   margin-bottom: 0px;
 }
 
-.contacts .item {
-  display: block;
+.header-contacts .link:not(:last-child) {
+  margin-right: 30px;
 }
 
-.contacts .item + .item {
-  margin-left: 50px;
-}
-
-.contacts a:hover,
-.contacts a:focus {
+.contacts .link:hover,
+.contacts .link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .site-nav .link,
@@ -143,6 +140,19 @@ img {
 
 .site-nav .link.current {
   color: var(--accent-color);
+}
+
+.btn-mail,
+.btn-phone {
+  display: flex;
+  outline: 1px solid red;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.button-icon {
+  margin-right: 10px;
 }
 
 .section-title {
