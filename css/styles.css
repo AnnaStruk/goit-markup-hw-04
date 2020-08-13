@@ -59,6 +59,15 @@ img {
   margin: 0 auto;
 }
 
+.content-box {
+  display: flex;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* Main-nav*/
 .main-nav {
   display: flex;
@@ -452,12 +461,11 @@ img {
   margin-right: 0px;
 }
 
-.footer-flexbox {
-  display: flex;
-  justify-content: space-between;
-  vertical-align: middle;
+/*.footer {
+  justify-content: space-around;
+  align-items: center;
 }
-
+*/
 .footer-links {
   display: flex;
   justify-content: start;
@@ -506,6 +514,10 @@ img {
 
 .icon-footer-linkedin {
   background-image: url(../images/footer-linkedin.svg);
+}
+
+.footer-sign-up {
+  margin-left: auto;
 }
 
 .submit-button {
